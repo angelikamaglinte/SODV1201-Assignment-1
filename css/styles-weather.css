@@ -1,0 +1,93 @@
+/*
+* @name: Assignement1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: Marie Angelika Maglinte
+*/
+
+/* Weather Page Styling */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.container {
+    text-align: center;
+    margin-top: 250px;
+}
+
+#title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 230px;
+    height: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    margin-right: 90px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* 
+Instructions:
+Create a new page called weather. On this page use the concept of JavaScript named and 
+anonymous function and create a program that can accept a temperature input in degree 
+Fahrenheit and convert it into degree Celsius and from Celsius to Kelvin based on a button click 
+event. (20 points)
+• Hint: Use JQuery to access the DOM elements in your code for this question. 
+• Do a little research to find out the basic formula for each calculation. 
+
+Create a stylesheet and add different style to your pages. All your page should have a footer that 
+details your full name, copyright @ and year.
+*/

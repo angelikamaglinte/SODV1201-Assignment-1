@@ -1,0 +1,71 @@
+<!-- 
+* @name: Assignement1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: Marie Angelika Maglinte
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mark to Grade Converter</title>
+   <!-- css -->
+   <link rel="stylesheet" href="css/styles-grade.css">
+   <!-- fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+</head>
+
+<body>
+   <header>
+      <h1>Angel's Personal Profile</h1>
+      <nav>
+         <a href="index.html">Profile</a>
+         <a href="grade.html">Grade</a>
+         <a href="staff.html">Staff</a>
+         <a href="weather.html">Weather</a>
+      </nav>
+   </header>
+   <!-- Build a Mark to Grade converter web page with the following specification and create a link to it in your profile page -->
+   <div class="container">
+      <p id="title">Mark to Grade Converter</p>
+      <!-- The MarkToGrade function scrapes the student mark out of the mark-input-box element -->
+      <input type="text" id="mark-input-box" placeholder="Enter Mark">
+      <button onclick="MarkToGrade()">Convert</button>
+      <p id="validation-message" style="color: red;"></p>
+      <p id="grade-result"></p>
+   </div>
+   <footer id="footer"></footer>
+   <script src="javascript/script-grade.js"></script>
+</body>
+
+</html>
+
+<!-- 
+Instructions:
+Build a Mark to Grade converter web page with the following specification and create a link to it in 
+your profile page (20 points)
+• The MarkToGrade function scrapes the student mark out of the mark-input-box element 
+and verifies it is realistic.
+• A Mark must be number only, nonnegative, and less than 101.
+• If an invalid mark is entered, it displays a message back to the user in the. validationmessage element.
+• Messages should be informative... return as many different messages as you can to 
+guide the user what kind of erroneous value has entered
+- If the user entered any value above 90 Grade A should be displayed as a result
+- If user entered any value above 80 Grade B should be displayed
+- If user entered any value above 70 Grade C should be displayed
+- If user entered any value above 50 Grade D should be displayed
+- If user entered any value less than 50 Grade F should be displayed 
+• Hint 1: In JavaScript, we can use the global parseInt function to try and convert a string 
+to a number.
+• Hint 2: Use exception handling.
+• Hint 3: Use HTML and JavaScript 
+
+Create a stylesheet and add different style to your pages. All your page should have a footer that 
+details your full name, copyright @ and year.
+ -->

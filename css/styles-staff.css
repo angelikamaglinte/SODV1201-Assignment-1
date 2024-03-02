@@ -1,0 +1,100 @@
+/*
+* @name: Assignement1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: Marie Angelika Maglinte
+*/
+
+/* Staff Page Styling */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#buttons {
+    margin-bottom: 50px;
+}
+
+#table {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* 
+Instructions:
+Create a new staff page and write a program which display list of staff information with sorting 
+capability by name and salary. Sample array data about staffs will be provided for you from your 
+instructor. You can restructure the dataset as you want. Link this staff page to your profile page.
+(20 points)
+• For this question you are expected to apply the concept of loop, JavaScript object, Array and 
+function. 
+• You can also use jQuery if needed
+• You can implement different solution for this question. All working attempts will be 
+considered right.
+
+Create a stylesheet and add different style to your pages. All your page should have a footer that 
+details your full name, copyright @ and year.
+*/

@@ -1,0 +1,78 @@
+<!-- 
+* @name: Assignement1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: Marie Angelika Maglinte
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Page</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/styles-staff.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Angel's Personal Profile</h1>
+        <nav>
+            <a href="index.html">Profile</a>
+            <a href="grade.html">Grade</a>
+            <a href="staff.html">Staff</a>
+            <a href="weather.html">Weather</a>
+        </nav>
+    </header>
+    <div class="container">
+        <p id="title">List of Staff Information</p>
+        <div id="buttons">
+            <button id="sortByNameBtn">Sort by Name</button>
+            <button id="sortBySalaryBtn">Sort by Salary</button>
+        </div>
+        <div id="table">
+            <table id="staffTable">
+                <thead>
+                    <tr>
+                        <th id="nameHeader">Name</th>
+                        <th id="positionHeader">Position</th>
+                        <th id="officeHeader">Office</th>
+                        <th id="ageHeader">Age</th>
+                        <th id="startDateHeader">Start Date</th>
+                        <th id="salaryHeader">Salary</th>
+                    </tr>
+                </thead>
+                <tbody id="staffData"></tbody>
+            </table>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="javascript/script-staff.js"></script>
+</body>
+
+</html>
+
+<!-- 
+Instructions:
+Create a new staff page and write a program which display list of staff information with sorting 
+capability by name and salary. Sample array data about staffs will be provided for you from your 
+instructor. You can restructure the dataset as you want. Link this staff page to your profile page.
+(20 points)
+• For this question you are expected to apply the concept of loop, JavaScript object, Array and 
+function. 
+• You can also use jQuery if needed
+• You can implement different solution for this question. All working attempts will be 
+considered right.
+
+Create a stylesheet and add different style to your pages. All your page should have a footer that 
+details your full name, copyright @ and year.
+ -->

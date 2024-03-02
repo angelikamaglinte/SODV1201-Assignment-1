@@ -1,0 +1,80 @@
+/*
+* @name: Assignement1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: Marie Angelika Maglinte
+*/
+
+/* Main Page Styling */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content img {
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.image-name {
+    display: none;
+    /* initially hide image-name */
+}
+
+#paragraph {
+    width: 700px;
+    text-align: justify;
+    margin-left: 565px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*
+Instructions: 
+1. Create a single personal profile page about yourself with any kind of style. This page should include 
+one picture, 1 or 2 paragraph, and header with navigation bar and footer. (10 points)
+(This home page should be named as index.html)
+• The navigation bar will be used to create a link to other pages that you will create for the 
+other questions. 
+• The footer of your page should include current date and copy right information.
+2. In your profile page, the name of the picture should appear after 10 seconds.
+*/

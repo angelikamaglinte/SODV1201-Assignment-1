@@ -1,0 +1,63 @@
+<!-- 
+* @name: Assignement1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: Marie Angelika Maglinte
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/styles-weather.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Angel's Personal Profile</h1>
+        <nav>
+            <a href="index.html">Profile</a>
+            <a href="grade.html">Grade</a>
+            <a href="staff.html">Staff</a>
+            <a href="weather.html">Weather</a>
+        </nav>
+    </header>
+    <div class="container">
+        <!-- Create a new page called weather -->
+        <p id="title">Temperature Converter</p>
+        <input type="number" id="fahrenheitInput" placeholder="Enter temperature in Fahrenheit">
+        <button id="convertBtn">Convert</button>
+        <div id="result">
+            <b>Celsius:</b> <span id="celsiusValue"></span><br>
+            <b>Kelvin:</b> <span id="kelvinValue"></span>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="javascript/script-weather.js"></script>
+</body>
+
+</html>
+
+<!-- 
+Instructions:
+Create a new page called weather. On this page use the concept of JavaScript named and 
+anonymous function and create a program that can accept a temperature input in degree 
+Fahrenheit and convert it into degree Celsius and from Celsius to Kelvin based on a button click 
+event. (20 points)
+• Hint: Use JQuery to access the DOM elements in your code for this question. 
+• Do a little research to find out the basic formula for each calculation.
+
+Create a stylesheet and add different style to your pages. All your page should have a footer that 
+details your full name, copyright @ and year.
+ -->

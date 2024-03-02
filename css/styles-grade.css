@@ -1,0 +1,100 @@
+/*
+* @name: Assignement1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: Marie Angelika Maglinte
+*/
+
+/* Grade Page Styling */
+body {
+   font-family: 'Inter', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+}
+
+nav {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+nav a {
+   color: #fff;
+   text-decoration: none;
+   padding: 10px 20px;
+}
+
+nav a:hover {
+   background-color: #555;
+}
+
+.container {
+   text-align: center;
+   margin-top: 250px;
+}
+
+#title {
+   font-size: 50px;
+   font-weight: bold;
+}
+
+input {
+   margin-bottom: 10px;
+   width: 230px;
+   height: 30px;
+}
+
+button {
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+}
+
+#validation-message,
+#grade-result {
+   font-weight: bold;
+}
+
+footer {
+   text-align: center;
+   margin-top: 20px;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   background-color: #333;
+   color: #fff;
+   padding: 10px 0;
+}
+
+/* 
+Instructions:
+Build a Mark to Grade converter web page with the following specification and create a link to it in 
+your profile page (20 points)
+• The MarkToGrade function scrapes the student mark out of the mark-input-box element 
+and verifies it is realistic.
+• A Mark must be number only, nonnegative, and less than 101.
+• If an invalid mark is entered, it displays a message back to the user in the. validationmessage element.
+• Messages should be informative... return as many different messages as you can to 
+guide the user what kind of erroneous value has entered
+- If the user entered any value above 90 Grade A should be displayed as a result
+- If user entered any value above 80 Grade B should be displayed
+- If user entered any value above 70 Grade C should be displayed
+- If user entered any value above 50 Grade D should be displayed
+- If user entered any value less than 50 Grade F should be displayed 
+• Hint 1: In JavaScript, we can use the global parseInt function to try and convert a string 
+to a number.
+• Hint 2: Use exception handling.
+• Hint 3: Use HTML and JavaScript 
+
+Create a stylesheet and add different style to your pages. All your page should have a footer that 
+details your full name, copyright @ and year.
+*/
